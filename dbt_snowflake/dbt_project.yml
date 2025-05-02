@@ -33,7 +33,5 @@ models:
   DBT_Snowflake:
     staging:
       +materialized: view
-      +materialized: incremental
     marts:
       +materialized: table
-      +materialized: incremental
