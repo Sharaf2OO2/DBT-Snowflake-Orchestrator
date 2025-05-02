@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Raw data from the source systems"
+    database: finance_db
+    schema: raw
+    tables:
+      - name: customers
+      - name: orders
+      - name: order_items
+      - name: products
